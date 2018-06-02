@@ -69,6 +69,10 @@ class ProjectCreate extends React.Component {
 
       this.setState({ errmsg: '项目创建成功' });
       console.log(result);
+
+      setTimeout(() => {
+        location.href = '/projects';
+      }, 1000);
     } catch (err) {
       console.error(err);
       this.setState({ errmsg: err.message || err.toString });

@@ -22,9 +22,12 @@ const styles = {
   },
   flexContainer: {
     flex: 1,
+    display: 'flex',
   },
   anchor: {
+    display: 'block',
     textDecoration: 'none',
+    marginRight: '16px',
   },
 };
 
@@ -43,6 +46,11 @@ class Header extends React.Component {
               <a href="/" className={classes.anchor}>
                 <Typography variant="title" color="inherit">
                   项目列表
+                </Typography>
+              </a>
+              <a href="https://juejin.im/book/5addb2eb6fb9a07abd0d4557" target="_blank" className={classes.anchor}>
+                <Typography variant="title" color="inherit">
+                  掘金小册
                 </Typography>
               </a>
             </p>

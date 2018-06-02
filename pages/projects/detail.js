@@ -238,7 +238,18 @@ class ProjectDetail extends React.Component {
   }
 
   renderPayments(project) {
-    console.log(project);
+    if (project.payments.length === 0) {
+      return (
+        <Paper style={{ padding: '15px' }}>
+          <p>还没有数据</p>
+          <Link route={`/projects/${project.address}/payments/create`}>
+            <Button variant="raised" color="primary">
+              创建资金支出请求
+            </Button>
+          </Link>
+        </Paper>
+      )
+    }
 
     return (
       <Paper style={{ padding: '15px' }}>
