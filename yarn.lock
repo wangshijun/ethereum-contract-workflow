@@ -3949,6 +3949,10 @@ https-browserify@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/https-browserify/download/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
 
+human-standard-token-abi@^1.0.2:
+  version "1.0.2"
+  resolved "http://registry.npm.taobao.org/human-standard-token-abi/download/human-standard-token-abi-1.0.2.tgz#207d7846796ee5bb85fdd336e769cb38045b2ae0"
+
 hyphenate-style-name@^1.0.2:
   version "1.0.2"
   resolved "http://registry.npm.taobao.org/hyphenate-style-name/download/hyphenate-style-name-1.0.2.tgz#31160a36930adaf1fc04c6074f7eb41465d4ec4b"

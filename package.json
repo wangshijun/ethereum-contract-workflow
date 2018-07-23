@@ -21,6 +21,7 @@
     "@material-ui/core": "^1.1.0",
     "config": "^1.30.0",
     "fs-extra": "^6.0.1",
+    "human-standard-token-abi": "^1.0.2",
     "next": "^6.0.3",
     "next-routes": "^1.4.2",
     "react": "^16.4.0",
