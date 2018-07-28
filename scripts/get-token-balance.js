@@ -3,7 +3,7 @@ const ABI = require('human-standard-token-abi');  // 因为所有的 ERC20 token
 
 const contractAddress = '0xa974c709cfb4566686553a20790685a47aceaa33'; // MIXIN 合约地址，在 Etherscan 上搜索能找到
 const accountAddress = '0x464fc4a06af689186154a4c0d4b062474f040a8a'; // 用户钱包
-const infuraUrl = 'https://mainnet.infura.io/CqCd0QgCozHBEk19ub2M'; // 注意这里的环境
+const infuraUrl = 'https://mainnet.infura.io/145318c65eb443c2bf7c0ec83591e49d'; // 注意这里的环境
 
 const web3 = new Web3(new Web3.providers.HttpProvider(infuraUrl));
 
